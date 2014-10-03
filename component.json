@@ -1,0 +1,17 @@
+{
+	"name": "wtf-8",
+	"version": "0.0.0",
+	"description": "A well-tested WTF-8 encoder/decoder written in JavaScript.",
+	"repo": "mathiasbynens/wtf-8",
+	"license": "MIT",
+	"scripts": [
+		"wtf-8.js"
+	],
+	"keywords": [
+		"charset",
+		"encoding",
+		"unicode",
+		"wtf8",
+		"wtf-8"
+	]
+}

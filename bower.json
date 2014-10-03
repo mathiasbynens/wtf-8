@@ -1,0 +1,14 @@
+{
+	"name": "wtf-8",
+	"version": "0.0.0",
+	"main": "wtf-8.js",
+	"ignore": [
+		"coverage",
+		"tests",
+		".*",
+		"component.json",
+		"Gruntfile.js",
+		"node_modules",
+		"package.json"
+	]
+}
