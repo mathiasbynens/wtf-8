@@ -19,7 +19,7 @@ module.exports = function(grunt) {
 				'command': 'istanbul cover --report "html" --verbose --dir "coverage" "tests/tests.js"'
 			},
 			'cover-coveralls': {
-				'command': 'istanbul cover --verbose --dir "coverage" "tests/tests.js" && cat coverage/lcov.info | coveralls; rm -rf coverage/lcov*'
+				'command': 'istanbul cover --verbose --dir "coverage" "tests/tests.js" && coveralls < coverage/lcov.info; rm -rf coverage/lcov*'
 			},
 			'test-narwhal': {
 				'command': 'echo "Testing in Narwhal..."; export NARWHAL_OPTIMIZATION=-1; narwhal "tests/tests.js"'
@@ -27,9 +27,6 @@ module.exports = function(grunt) {
 			'test-phantomjs': {
 				'command': 'echo "Testing in PhantomJS..."; phantomjs "tests/tests.js"'
 			},
-			// Rhino 1.7R4 has a bug that makes it impossible to test in.
-			// https://bugzilla.mozilla.org/show_bug.cgi?id=775566
-			// To test, use Rhino 1.7R3, or wait (heh) for the 1.7R5 release.
 			'test-rhino': {
 				'command': 'echo "Testing in Rhino..."; rhino -opt -1 "tests.js"',
 				'options': {

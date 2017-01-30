@@ -6,7 +6,7 @@ Feel free to fork if you see possible improvements!
 
 ## Installation
 
-Via [npm](http://npmjs.org/):
+Via [npm](https://www.npmjs.com/):
 
 ```bash
 npm install wtf-8
@@ -30,7 +30,7 @@ In a browser:
 <script src="wtf-8.js"></script>
 ```
 
-In [Narwhal](http://narwhaljs.org/), [Node.js](http://nodejs.org/), and [RingoJS ≥ v0.8.0](http://ringojs.org/):
+In [Narwhal](http://narwhaljs.org/), [Node.js](https://nodejs.org/), and [RingoJS ≥ v0.8.0](http://ringojs.org/):
 
 ```js
 var wtf8 = require('wtf-8');
