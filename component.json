@@ -1,6 +1,6 @@
 {
 	"name": "wtf-8",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "A well-tested WTF-8 encoder/decoder written in JavaScript.",
 	"repo": "mathiasbynens/wtf-8",
 	"license": "MIT",

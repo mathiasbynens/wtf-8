@@ -1,4 +1,4 @@
-/*! https://mths.be/wtf8 v1.0.0 by @mathias */
+/*! https://mths.be/wtf8 v1.0.1 by @mathias */
 ;(function(root) {
 
 	// Detect free variables `exports`
@@ -202,7 +202,7 @@
 	/*--------------------------------------------------------------------------*/
 
 	var wtf8 = {
-		'version': '1.0.0',
+		'version': '1.0.1',
 		'encode': wtf8encode,
 		'decode': wtf8decode
 	};
